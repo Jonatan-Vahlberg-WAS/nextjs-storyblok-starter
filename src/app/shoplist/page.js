@@ -13,7 +13,7 @@ export default async function Home() {
 
 export async function fetchData() {
   const storyblokApi = getStoryblokApi();
-  return await storyblokApi.get("cdn/stories/home", {
+  return await storyblokApi.get("cdn/stories/shoplist", {
     version: "draft",
   });
 }
